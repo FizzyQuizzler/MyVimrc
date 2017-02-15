@@ -43,7 +43,7 @@ let mapleader = ","
 " java basic commands.
 map <Leader>jo i<Tab><Tab>System.out.println();<LEFT><LEFT>
 map <Leader>jt i<Tab><Tab>try{<CR><CR>}catch(Exception e){<CR>e.printStackTrace<CR>}<CR><ESC>
-map <Leader>jm i<Tab>public static void main(String [] args){<CR><CR>}<Home><Del><UP><UP><UP><Del><DOWN><Tab><Tab><ESC>
+map <Leader>jm i<Tab>public static void main(String [] args){<CR><CR>}<Home><Del><UP><UP><UP><Del><DOWN><Tab><Tab>
 map <Leader>jf i<Tab><Tab>for(int a = 0;a<[change me!];a++){<CR>}<CR><UP>
 map <Leader>je i<Tab><Tab>for([object type] a: [Variables]){<CR>}<CR><UP>
 map <Leader>jw i<Tab><Tab>while([change me!]){<CR><CR>}<UP><Tab><Tab>
@@ -62,10 +62,11 @@ map <Leader>jkw iprivate  <ESC>
 map <Leader>jke iprotected  <ESC>
 map <Leader>jka iabstract  <ESC>
 map <Leader>jks istatic  <ESC>
-map <Leader>jkc iclass {}<LEFT><CR><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
+map <Leader>jkc iclass  <ESC>
 map <Leader>jkf ifinal  <ESC>
 map <Leader>jkn inew  <ESC>
 " Vim Macros.
+map <Leader>d v%di()<ESC>
 map <Leader>t :tabedit<Space>
 map <Leader>l :TlistToggle<RETURN>
 map <Leader>; :TlistUpdate<RETURN>
