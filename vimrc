@@ -66,6 +66,7 @@ map <Leader>jkc iclass {}<LEFT><CR><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
 map <Leader>jkf ifinal  <ESC>
 map <Leader>jkn inew  <ESC>
 " Vim Macros.
+map <Leader>d v%di()<ESC>
 map <Leader>t :tabedit<Space>
 map <Leader>l :TlistToggle<RETURN>
 map <Leader>; :TlistUpdate<RETURN>
