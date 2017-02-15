@@ -48,7 +48,7 @@ map <Leader>jf i<Tab><Tab>for(int a = 0;a<[change me!];a++){<CR>}<CR><UP>
 map <Leader>je i<Tab><Tab>for([object type] a: [Variables]){<CR>}<CR><UP>
 map <Leader>jw i<Tab><Tab>while([change me!]){<CR><CR>}<UP><Tab><Tab>
 " map java primitive data types.
-map <Leader>jdi iint ;<LEFT>
+map <Leader>jdi iint  ;<LEFT>
 map <Leader>jdd idouble ;<LEFT>
 map <Leader>jdc ichar ;<LEFT>
 map <Leader>jds iString ;<LEFT>
