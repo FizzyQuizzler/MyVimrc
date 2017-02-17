@@ -38,15 +38,15 @@ let g:syntastic_check_on_wq = 0
 let mapleader = ","
 
 "disable the arrow keys for learning hjkl...
-noremap <Up> <NOP>
-noremap <DOWN> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
+"noremap <Up> <NOP>
+"noremap <DOWN> <NOP>
+"noremap <Left> <NOP>
+"noremap <Right> <NOP>
 
-imap <Up> <NOP>
-imap <down> <NOP>
-imap <Left> <NOP>
-imap <Right> <NOP>
+"imap <Up> <NOP>
+"imap <down> <NOP>
+"imap <Left> <NOP>
+"imap <Right> <NOP>
 
 
 " area for setting up the macros that I will be using.
