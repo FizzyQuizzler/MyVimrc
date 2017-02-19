@@ -11,6 +11,7 @@ set t_Co=256
 set number
 set spell
 set tabstop=4
+set autoindent
 set colorcolumn=110
 " this command will set the timeout for the leader functions to be longer.
 set timeoutlen=4000
@@ -37,6 +38,9 @@ let g:syntastic_check_on_wq = 0
 "set up the leader key.
 let mapleader = ","
 
+"this will handle starting the control-p
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 "disable the arrow keys for learning hjkl...
 "noremap <Up> <NOP>
 "noremap <DOWN> <NOP>
@@ -52,6 +56,7 @@ let mapleader = ","
 " area for setting up the macros that I will be using.
 " Java Macros.
 " java basic commands.
+map <Leader>ji iif(){<RETURN><UP><HOME><DELETE><DOWN><DOWN><DELETE><UP><TAB><TAB><TAB><UP><LEFT>
 map <Leader>jo i<Tab><Tab>System.out.println();<LEFT><LEFT>
 map <Leader>jt i<Tab><Tab>try{<CR><CR>}catch(Exception e){<CR>e.printStackTrace<CR>}<CR><ESC>
 map <Leader>jm i<Tab>public static void main(String [] args){<CR><CR>}<Home><Del><UP><UP><UP><Del><DOWN><Tab><Tab><ESC>
