@@ -41,6 +41,8 @@ let mapleader = ","
 "this will handle starting the control-p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+"Tlist_Inc_Winwidth=0
+
 "disable the arrow keys for learning hjkl...
 "noremap <Up> <NOP>
 "noremap <DOWN> <NOP>
