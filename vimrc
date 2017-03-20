@@ -81,12 +81,21 @@ map <Leader>jks istatic  <ESC>
 map <Leader>jkc iclass {}<LEFT><CR><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
 map <Leader>jkf ifinal  <ESC>
 map <Leader>jkn inew  <ESC>
+"c++ Macros.
+"basic c++ commands.
+map <Leader>cm1 iint main(){<CR><CR>}<UP><UP><TAB>
+map <Leader>co istd::cout<<<<std::endl;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
 " Vim Macros.
+" this macro will delete inside of "".
 map <Leader>d v%di()<ESC>
+" this macro will open another tab.
 map <Leader>t :tabedit<Space>
 map <Leader>l :TlistToggle<RETURN>
 map <Leader>; :TlistUpdate<RETURN>
 map <Leader>a i<TAB><TAB><ESC>
+" this macro will handle removing any trailing white space.
 map <Leader>0 :%s/\s\+$//<RETURN>
+" this macro will enable/disable syntastic.
 map <Leader>] :SyntasticToggle<RETURN>
+" this macro will handle opening the Nerd Tree project structure navigator.
 map <Leader>[ :NERDTree<RETURN>
