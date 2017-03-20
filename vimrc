@@ -41,6 +41,8 @@ let mapleader = ","
 "this will handle starting the control-p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+"Tlist_Inc_Winwidth=0
+
 "disable the arrow keys for learning hjkl...
 "noremap <Up> <NOP>
 "noremap <DOWN> <NOP>
@@ -84,6 +86,7 @@ map <Leader>jkn inew  <ESC>
 "c++ Macros.
 "basic c++ commands.
 map <Leader>cm1 iint main(){<CR><CR>}<UP><UP><TAB>
+map <Leader>cm2 iint main(int argc,char **argv){<CR><CR>}<HOME><UP><UP><TAB>
 map <Leader>co istd::cout<<<<std::endl;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
 " Vim Macros.
 " this macro will delete inside of "".
