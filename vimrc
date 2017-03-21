@@ -79,6 +79,7 @@ map <Leader>jkq ipublic  <ESC>
 map <Leader>jkw iprivate  <ESC>
 map <Leader>jke iprotected  <ESC>
 map <Leader>jka iabstract  <ESC>
+map <Leader>jkv ivoid  <ESC>
 map <Leader>jks istatic  <ESC>
 map <Leader>jkc iclass {}<LEFT><CR><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
 map <Leader>jkf ifinal  <ESC>
