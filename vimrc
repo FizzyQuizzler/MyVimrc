@@ -74,14 +74,14 @@ map <Leader>jf i<Tab><Tab>for(int a = 0;a<[change me!];a++){<CR>}<CR><UP>
 map <Leader>je i<Tab><Tab>for([object type] a: [Variables]){<CR>}<CR><UP>
 map <Leader>jw i<Tab><Tab>while([change me!]){<CR><CR>}<UP><Tab><Tab>
 " map java primitive data types.
-map <Leader>jdi iint ;<LEFT>
-map <Leader>jdd idouble ;<LEFT>
-map <Leader>jdc ichar ;<LEFT>
-map <Leader>jds iString ;<LEFT>
-map <Leader>jdb iboolean ;<LEFT>
-map <Leader>jdf ifloat ;<LEFT>
-map <Leader>jdl ilong ;<LEFT>
-map <Leader>jdh ishort ;<LEFT>
+map <Leader>jkI iint ;<LEFT>
+map <Leader>jkD idouble ;<LEFT>
+map <Leader>jkC ichar ;<LEFT>
+map <Leader>jkS iString ;<LEFT>
+map <Leader>jkB iboolean ;<LEFT>
+map <Leader>jkF ifloat ;<LEFT>
+map <Leader>jkL ilong ;<LEFT>
+map <Leader>jkH ishort ;<LEFT>
 " Java programming key words.
 map <Leader>jkq ipublic  <ESC>
 map <Leader>jkw iprivate  <ESC>
