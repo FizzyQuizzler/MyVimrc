@@ -16,14 +16,22 @@ set colorcolumn=110
 " this command will set the timeout for the leader functions to be longer.
 set timeoutlen=4000
 
+" Enable 256 colors palette in Gnome Terminal
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
+try
+    colorscheme desert
+catch
+endtry
+
 
 " make the comments show as grey.
 highlight Comment ctermfg=grey
 
 "make the Strings show as green.
 highlight String ctermfg=green
-
-
 
 " used for Syntastic
 set statusline+=%#warningmsg#
