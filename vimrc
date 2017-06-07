@@ -64,6 +64,8 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " area for setting up the macros that I will be using.
 " Java Macros.
+" Java Basic Comment Structure.
+map <Leader>jc i//Variables.<CR>Class Variables.<CR>methods.<HOME><CR><UP><UP><CR><ESC>
 " java basic commands.
 map <Leader>ji iif(){<RETURN><UP><HOME><DELETE><DOWN><DOWN><DELETE><UP><TAB><TAB><TAB><UP><LEFT>
 map <Leader>jo i<Tab><Tab>System.out.println();<LEFT><LEFT>
