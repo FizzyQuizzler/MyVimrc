@@ -16,6 +16,7 @@ set colorcolumn=110
 " this command will set the timeout for the leader functions to be longer.
 set timeoutlen=4000
 
+
 " Enable 256 colors palette in Gnome Terminal
 "if $COLORTERM == 'gnome-terminal'
 "    set t_Co=256
@@ -67,6 +68,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " Java Basic Comment Structure.
 map <Leader>jc i//Variables.<CR>Class Variables.<CR>methods.<HOME><CR><UP><UP><CR><ESC>
 " java basic commands.
+map <Leader>jfxa iAnimationTimer loop = new AnimationTimer(){<CR>public void handle(long now){<CR>}};<ESC>ggjjOimport javafx.animation.AnimationTimer;
 map <Leader>ji iif(){<RETURN><UP><HOME><DELETE><DOWN><DOWN><DELETE><UP><TAB><TAB><TAB><UP><LEFT>
 map <Leader>jo i<Tab><Tab>System.out.println();<LEFT><LEFT>
 map <Leader>jt i<Tab><Tab>try{<CR><CR>}catch(Exception e){<CR>e.printStackTrace<CR>}<CR><ESC>
