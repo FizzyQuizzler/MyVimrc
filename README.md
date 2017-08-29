@@ -1,4 +1,6 @@
 # MyVimrc
+this Repo contains all of the work that I have done to make the Vim Editor my Development Aria pf choice. If you have any questions about this setup please reach out to me.
+
 <h1>List Of Vim Plugins Used...</h1>
 <h2><a href="https://github.com/tpope/vim-pathogen.git">Pathogen</a> : a vim plugin manager.</h2>
 
