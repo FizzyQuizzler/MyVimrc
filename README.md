@@ -10,3 +10,11 @@ this Repo contains all of the work that I have done to make the Vim Editor my De
 
 <h2><a href="https://github.com/scrooloose/nerdtree.git">NERDTree</a> : this adds a Tree view of the project that you are working on in Vim.</h2>
 
+<h2><a href="https://github.com/ervandew/supertab.git">SuperTab</a> : add some tab complete Features for me to use</h2>
+
+<h2><a href="https://github.com/scrooloose/syntastic.git">Syntastic</a> : Checks the syntax of you code next to the compiler.</h2>
+
+<h2><a href="https://github.com/akhaku/vim-java-unused-imports.git">Java Unused Imports</a> : this plug in checks if you have imports that are not being used.</h2>
+
+<h2><a href="://github.com/ctrlpvim/ctrlp.vim.git">Control-P</a> : this is a fuzzy search tool that will search your project and find files for you. </h2>
+
