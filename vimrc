@@ -24,6 +24,9 @@ highlight Comment ctermfg=grey
 highlight String ctermfg=green
 
 
+"let W0rp work with syntastic.
+let g:ale_emit_conflict_warnings = 0
+
 
 " used for Syntastic
 set statusline+=%#warningmsg#
