@@ -16,5 +16,5 @@ this Repo contains all of the work that I have done to make the Vim Editor my De
 
 <h2><a href="https://github.com/akhaku/vim-java-unused-imports.git">Java Unused Imports</a> : this plug in checks if you have imports that are not being used.</h2>
 
-<h2><a href="://github.com/ctrlpvim/ctrlp.vim.git">Control-P</a> : this is a fuzzy search tool that will search your project and find files for you. </h2>
+<h2><a href="https://github.com/ctrlpvim/ctrlp.vim.git">Control-P</a> : this is a fuzzy search tool that will search your project and find files for you. </h2>
 
