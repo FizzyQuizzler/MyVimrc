@@ -16,6 +16,9 @@ set colorcolumn=110
 " this command will set the timeout for the leader functions to be longer.
 set timeoutlen=4000
 
+" sets the word wrap to disabled.
+set nowrap
+
 
 " Enable 256 colors palette in Gnome Terminal
 "if $COLORTERM == 'gnome-terminal'
