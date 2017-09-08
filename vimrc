@@ -9,6 +9,7 @@ set t_Co=256
 
 " basic settings.
 set number
+set relativenumber
 set spell
 set tabstop=4
 set autoindent
@@ -18,6 +19,8 @@ set timeoutlen=4000
 
 " sets the word wrap to disabled.
 set nowrap
+
+
 
 
 " Enable 256 colors palette in Gnome Terminal
