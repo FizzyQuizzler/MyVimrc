@@ -21,8 +21,6 @@ set timeoutlen=4000
 set nowrap
 
 
-
-
 " Enable 256 colors palette in Gnome Terminal
 "if $COLORTERM == 'gnome-terminal'
 "    set t_Co=256
@@ -75,6 +73,8 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 
 " area for setting up the macros that I will be using.
+" --------------------------------------------------------
+"  -------------------------------------------------------
 " Java Macros.
 " Java Basic Comment Structure.
 map <Leader>jc i//Variables.<CR>Class Variables.<CR>methods.<HOME><CR><UP><UP><CR><ESC>
@@ -106,11 +106,22 @@ map <Leader>jks istatic  <ESC>
 map <Leader>jkc iclass {}<LEFT><CR><UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT>
 map <Leader>jkf ifinal  <ESC>
 map <Leader>jkn inew  <ESC>
+" --------------------------------------------------------
+" --------------------------------------------------------
+"  Bash Scripting Macros...
+map <Leader>b1 i#!/bin/bash
+" --------------------------------------------------------
+" --------------------------------------------------------
 "c++ Macros.
 "basic c++ commands.
+"this is the basic main method that is used in c++...
 map <Leader>cm1 iint main(){<CR><CR>}<UP><UP><TAB>
+" this is the main method that is prominant in QT.
 map <Leader>cm2 iint main(int argc,char **argv){<CR><CR>}<HOME><UP><UP><TAB>
+" this is a print statement.
 map <Leader>co istd::cout<<<<std::endl;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
+" --------------------------------------------------------
+"  -------------------------------------------------------
 " Vim Macros.
 " this macro will delete inside of "".
 map <Leader>d v%di()<ESC>
@@ -125,3 +136,4 @@ map <Leader>0 :%s/\s\+$//<RETURN>
 map <Leader>] :SyntasticToggle<RETURN>
 " this macro will handle opening the Nerd Tree project structure navigator.
 map <Leader>[ :NERDTree<RETURN>
+" --------------------------------------------------------
