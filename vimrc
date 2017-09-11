@@ -32,13 +32,15 @@ catch
 endtry
 
 "This is the Color Scheme for Vim.
-hi Normal       ctermfg=Gray 
-hi NonText      ctermfg=Gray
+hi Normal       ctermfg=LightGrey
+hi NonText      ctermfg=White
+hi String       ctermfg=Green
+hi Function     ctermfg=White
 
 hi Statement    ctermfg=White
 hi Comment      ctermfg=Blue
 hi Constant     ctermfg=White
-hi Identifier   ctermfg=Cyan
+hi Identifier   ctermfg=DarkBlue
 hi Type         ctermfg=Cyan
 hi Folded       ctermfg=White
 hi Special      ctermfg=Blue
