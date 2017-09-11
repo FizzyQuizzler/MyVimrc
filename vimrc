@@ -22,25 +22,50 @@ set nowrap
 
 
 " Enable 256 colors palette in Gnome Terminal
-"if $COLORTERM == 'gnome-terminal'
-"    set t_Co=256
-"endif
-"
-"try
-"    colorscheme desert
-"catch
-"endtry
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
 
-" make the comments show as grey.
-highlight Comment ctermfg=grey
+try
+    colorscheme desert
+catch
+endtry
 
-"make the Strings show as green.
-highlight String ctermfg=green
+"This is the Color Scheme for Vim.
+hi Normal       ctermfg=Gray 
+hi NonText      ctermfg=Gray
 
+hi Statement    ctermfg=White
+hi Comment      ctermfg=Blue
+hi Constant     ctermfg=White
+hi Identifier   ctermfg=Cyan
+hi Type         ctermfg=Cyan
+hi Folded       ctermfg=White
+hi Special      ctermfg=Blue
+hi PreProc      ctermfg=Blue
+hi Scrollbar    ctermfg=Blue
+hi Cursor       ctermfg=white
+hi ErrorMsg     ctermfg=white
+hi WarningMsg   ctermfg=Black
+hi VertSplit    ctermfg=White
+hi Directory    ctermfg=Cyan
+hi Visual       ctermfg=Black 
+hi Title        ctermfg=White
+hi ColorColumn  ctermbg=Blue
+hi clear Spellbad
+hi SpellBad     cterm=underline
+hi Error        ctermfg=Black ctermbg=Red
+hi SpellCap     ctermfg=Black
+hi CursorLineNr ctermfg=DarkBlue
+"hi SpellRare
+"hi SpellLocal
+
+hi StatusLine   term=bold cterm=bold ctermfg=White
+hi StatusLineNC term=bold cterm=bold ctermfg=Gray
+hi LineNr       term=bold cterm=bold ctermfg=White
 
 "let W0rp work with syntastic.
 let g:ale_emit_conflict_warnings = 0
-
 
 " used for Syntastic
 set statusline+=%#warningmsg#
