@@ -53,7 +53,7 @@ hi VertSplit    ctermfg=White
 hi Directory    ctermfg=Cyan
 hi Visual       ctermfg=Black 
 hi Title        ctermfg=White
-hi ColorColumn  ctermbg=Blue
+hi ColorColumn  ctermfg=Black ctermbg=Blue
 hi clear Spellbad
 hi SpellBad     cterm=underline
 hi Error        ctermfg=Black ctermbg=Red
