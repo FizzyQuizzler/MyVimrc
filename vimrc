@@ -37,7 +37,7 @@ hi NonText      ctermfg=White
 hi String       ctermfg=Green
 hi Function     ctermfg=White
 
-hi Statement    ctermfg=White
+hi Statement    ctermfg=Cyan
 hi Comment      ctermfg=Blue
 hi Constant     ctermfg=White
 hi Identifier   ctermfg=DarkBlue
