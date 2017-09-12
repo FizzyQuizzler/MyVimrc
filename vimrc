@@ -39,7 +39,7 @@ hi Function     ctermfg=White
 
 hi Statement    ctermfg=Cyan
 hi Comment      ctermfg=Blue
-hi Constant     ctermfg=White
+hi Constant     ctermfg=darkgreen
 hi Identifier   ctermfg=DarkBlue
 hi Type         ctermfg=Cyan
 hi Folded       ctermfg=White
