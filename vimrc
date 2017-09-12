@@ -20,16 +20,19 @@ set timeoutlen=4000
 " sets the word wrap to disabled.
 set nowrap
 
-" Enable 256 colors palette in Gnome Terminal
+
+
+"Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
 try
-    "colorscheme desert
+	colorscheme desert
 catch
 endtry
 
+ 
 "This is the Color Scheme for Vim.
 hi Normal       ctermfg=LightGrey
 hi NonText      ctermfg=White
