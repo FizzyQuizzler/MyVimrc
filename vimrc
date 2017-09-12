@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" settings for powerline.
+" settings for power line.
 set  rtp+=/home/$USER/.local/lib/python3.5/site-packages/powerline/bindings/vim
 set laststatus=2
 set t_Co=256
@@ -20,14 +20,13 @@ set timeoutlen=4000
 " sets the word wrap to disabled.
 set nowrap
 
-
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
 try
-    colorscheme desert
+    "colorscheme desert
 catch
 endtry
 
@@ -55,10 +54,11 @@ hi Visual       ctermfg=Black
 hi Title        ctermfg=White
 hi ColorColumn  ctermfg=Black ctermbg=Blue
 hi clear Spellbad
-hi SpellBad     cterm=underline
+hi SpellBad     ctermfg=red cterm=underline
 hi Error        ctermfg=Black ctermbg=Red
 hi SpellCap     ctermfg=Black
 hi CursorLineNr ctermfg=DarkBlue
+hi TODO         ctermfg=Yellow ctermbg=none cterm=Underline
 "hi SpellRare
 "hi SpellLocal
 

@@ -16,8 +16,9 @@ echo "download vimrc from github..."
 cd ~/.vim
 git clone https://github.com/FizzyQuizzler/MyVimrc.git
 cd ~/.vim/MyVimrc
-sudo chmod +x updateVimRC.sh
-./updateVimRC
+git pull
+cp ~/.vim/MyVimrc/vimrc ~/.vim
+echo "VimRX is up to Date..."
 
 # this will handle installing all of the vim plugins.
 echo "installing Vim Plugins..."
@@ -54,6 +55,14 @@ sudo apt-get -y install powerline
 
 # copying the tmux configuration file from Myvimrc.
 cp ~/.vim/MyVimrc/.tmux.conf ~/
+
+echo ' this needs to be in your bashrc...\n
+powerline-daemon -q\n
+POWERLINE_BASH_CONTINUATION=1\n
+POWERLINE_BASH_SELECT=1\n
+/home/fizzyquizzler/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
+' > bashrc.txt
+gedit bashrc.txt
 
 # do this Last ... 
 echo "Script Complete... Now Open vim and run this command ':helptags ~/.vim/bundle/ctrlp.vim/doc'"
