@@ -72,6 +72,9 @@ hi LineNr       term=bold cterm=bold ctermfg=White
 "let W0rp work with syntastic.
 let g:ale_emit_conflict_warnings = 0
 
+" this is here to load the lib folder of a java project as a source folder.
+let g:ale_java_javac_classpath = ".:lib/*"
+
 " used for Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -152,7 +155,13 @@ map <Leader>cm2 iint main(int argc,char **argv){<CR><CR>}<HOME><UP><UP><TAB>
 map <Leader>co istd::cout<<<<std::endl;<LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
 " --------------------------------------------------------
 "  -------------------------------------------------------
+"  TODO add in the french accents...
+
+" --------------------------------------------------------
+"  -------------------------------------------------------
 " Vim Macros.
+" this macro will handle setting Syntastic to look at a lib Folder to find imports.
+map <Leader>j1 :SyntasticJavacEditClasspath<cr>i.:lib/*<esc>:wq
 " this macro will delete inside of "".
 map <Leader>d v%di()<ESC>
 " this macro will open another tab.
