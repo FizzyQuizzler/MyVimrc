@@ -1,6 +1,16 @@
 #!/bin/bash
 #this script will handle installing all of the vim plugins that I use and the Powerline Terminal Tool.
 
+# copy the Background folder from my thumb drive to Home.
+echo "install Google Chrome..."
+mkdir ~/gc-install-tmp
+cd ~/gc-install-tmp
+sudo apt-get install gdebi
+wget http://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi -n google-chrome-stable_current_amd64.deb
+cd ..
+rm -rf ~/gc-install-tmp
+
 # this will handle installing git, vim, and tmux.
 echo "install git..."
 sudo apt-get -y install git vim tmux
