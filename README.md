@@ -1,5 +1,12 @@
 # MyVimrc
-this Repo contains all of the work that I have done to make the Vim Editor my Development Aria pf choice. If you have any questions about this setup please reach out to me.
+this Repo contains all of the work that I have done to make the Vim Editor my Development Environment choice.
+
+Programming Languages that I Write in Vim.
+	- HTML / CSS.
+	- Python.
+	- Java.
+	- JavaScript.
+	- C++
 
 <h1>List Of Vim Plugins Used...</h1>
 <h2><a href="https://github.com/tpope/vim-pathogen.git">Pathogen</a> : a vim plugin manager.</h2>
